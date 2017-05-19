@@ -2,7 +2,6 @@ html, body, #wrapper {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background: none;
 }
 
 body {
@@ -11,13 +10,8 @@ body {
     -webkit-user-select: none
 }
 
-#particles {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
+label {
+    color: #868A88 !important;
 }
 
 md-card {
@@ -29,10 +23,41 @@ md-select-value {
     overflow: hidden;
 }
 
+ng-cloak {
+    display: none;
+}
+
+md-content, md-card, footer {
+    background-color: #404552;
+    color: #FFFFFF;
+}
+
+md-content {
+    border: 2px solid #FFFFFF;
+}
+
+footer {
+    padding: 4px 10px;
+}
+
+#particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#help-button {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
 .header {
     width: 100%;
-    background-color: #263238;
-    color: white;
+    background-color: #232E3A;
     text-align: center;
     padding: 10px 0;
     margin-bottom: 15px;
@@ -46,25 +71,6 @@ md-select-value {
     border-radius: 100%;
 }
 
-footer {
-    padding: 4px 10px;
-    background-color: rgba(0, 0, 0, 0.09);
-    color: white;
-}
-footer button.md-button, #clock {
-    font-size: 12px;
-}
-
-ng-cloak {
-    display: none;
-}
-
-#help-button {
-    position: fixed;
-    top: 0;
-    right: 0;
-}
-
 .ng-leave {
     display: none;
 }
@@ -73,6 +79,10 @@ ng-cloak {
     font-size: 10px;
     color: #929292;
     margin-top: 5px;
+}
+
+footer button.md-button, #clock {
+    font-size: 12px;
 }
 
 @media only screen and (min-width:960px){

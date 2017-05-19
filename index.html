@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="assets/bower_components/angular-material/angular-material.css">
         <link rel="stylesheet" href="assets/bower_components/animate.css/animate.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body ng-app="webkitMaterial" ng-style="backgroundStyle">
         <div class="ng-cloak" id="wrapper" layout="column" layout-align="center stretch">
@@ -19,7 +19,7 @@
                             <img class="profile-img" ng-src="{{getUserImage(user)}}" fallback-src="assets/ui/avatar.png"/> <!-- Replace src with {{getUserImage(user)}} for actual .face support -->
                             <form layout="column" layout-align="center stretch" ng-submit="signIn()" name="loginForm">
                                 <md-input-container>
-                                    <label>User</label>
+                                    <label class="test">User</label>
                                     <md-select id="user" name="user" class="md-select" ng-model="user" required>
                                         <md-option ng-repeat="u in users" value="{{u.name}}">
                                             {{u.display_name}}
