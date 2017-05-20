@@ -1,10 +1,7 @@
 ## A Material design LightDM Webkit2 greeter theme
-## [PROJECT ABANDONED]
 ### You can fork it and develop it according to your tastes.
 
 This is a theme for LightDM Webkit2 (`lightdm-webkit2-greeter`).
-
-Arch Linux users can find it in the AUR: [`lightdm-webkit-theme-material-git`](https://aur.archlinux.org/packages/lightdm-webkit-theme-material-git/).
 
 ### Screenshots
 
@@ -18,7 +15,7 @@ Arch Linux users can find it in the AUR: [`lightdm-webkit-theme-material-git`](h
 
 ### Features
 
-I created this for use on Arch Linux, so it only has the basic features of:
+I forked this from [Lightdm-Webkit-Material](https://github.com/artur9010/lightdm-webkit-material), so it only has the basic features of:
 
 - Selecting an available user from a dropdown
 - Entering their password
@@ -36,15 +33,11 @@ I created this for use on Arch Linux, so it only has the basic features of:
 
 ### How to install
 
-[Check our wiki](https://github.com/artur9010/lightdm-webkit-material/wiki/Installation)
+[Check our wiki](https://github.com/Wavum/lightdm-webkit-material-dark/wiki/Installation)
 
 ### Updating
-1. In the terminal, `cd` to `/usr/share/lightdm-webkit/themes/lightdm-webkit-material/`
+1. In the terminal, `cd` to `/usr/share/lightdm-webkit/themes/lightdm-webkit-material-dark/`
 2. Pull changes from repository, `git pull`
-
-### Updating (Arch Linux users)
-If you installed theme using AUR.
-- Yaourt: `yaourt -Syua`
 
 ### Setting your own user picture
 
