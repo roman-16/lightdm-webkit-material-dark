@@ -36,6 +36,10 @@ md-content {
     border: 2px solid #FFFFFF;
 }
 
+md-option, .md-input, .md-text, .md-select-icon {
+    color: #FFFFFF !important;
+}
+
 footer {
     padding: 4px 10px;
 }
