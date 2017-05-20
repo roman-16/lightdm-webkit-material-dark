@@ -5,13 +5,10 @@ This is a theme for LightDM Webkit2 (`lightdm-webkit2-greeter`).
 
 ### Screenshots
 
-![](https://cdn.rawgit.com/artur9010/lightdm-webkit-material/screenshoots/default.png)
-![](https://cdn.rawgit.com/artur9010/lightdm-webkit-material/screenshoots/shutdown-dialog.png)
-![](https://cdn.rawgit.com/artur9010/lightdm-webkit-material/screenshoots/settings.png)
-![](https://cdn.rawgit.com/artur9010/lightdm-webkit-material/screenshoots/particleground-background.png)
-![](https://cdn.rawgit.com/artur9010/lightdm-webkit-material/screenshoots/particleground-background-2.png)
-![](https://cdn.rawgit.com/artur9010/lightdm-webkit-material/screenshoots/custom-background-image.png)
-![](https://cdn.rawgit.com/artur9010/lightdm-webkit-material/screenshoots/custom-background-and-profile-image.png)
+![](https://raw.githubusercontent.com/Wavum/lightdm-webkit-material-dark/screenshoots/default.png)
+![](https://raw.githubusercontent.com/Wavum/lightdm-webkit-material-dark/screenshoots/shutdown-dialog.png)
+![](https://raw.githubusercontent.com/Wavum/lightdm-webkit-material-dark/screenshoots/settings.png)
+![](https://raw.githubusercontent.com/Wavum/lightdm-webkit-material-dark/screenshoots/custom-background-image.png)
 
 ### Features
 
